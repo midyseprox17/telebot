@@ -9,6 +9,8 @@ class telebot extends CI_Controller
         $message = $update["message"]["text"];
         
         
+        echo "HAOOO";
+        
         if (strpos($message, "/start") === 0) {
         
         file_get_contents($apiURL."/sendmessage?chat_id=".$chatID."&text=Haloo, test webhookL");

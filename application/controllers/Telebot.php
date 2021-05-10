@@ -1,5 +1,5 @@
 <?php
-class telebot extends CI_Controller
+class Telebot extends CI_Controller
 {
 	function index(){
         $TOKEN = "1830992890:AAFGXDpuD-scD3e_KTXMYfZfdqtwp6lDv48";
@@ -10,7 +10,7 @@ class telebot extends CI_Controller
         
         
         echo "HAOOO";
-        
+
         if (strpos($message, "/start") === 0) {
         
         file_get_contents($apiURL."/sendmessage?chat_id=".$chatID."&text=Haloo, test webhookL");

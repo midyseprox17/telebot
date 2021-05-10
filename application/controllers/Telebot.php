@@ -1,5 +1,5 @@
 <?php
-class Telebost extends CI_Controller
+class Telebot extends CI_Controller
 {
 	function index(){
         $TOKEN = "1830992890:AAFGXDpuD-scD3e_KTXMYfZfdqtwp6lDv48";

@@ -9,7 +9,7 @@ class Telebot extends CI_Controller
         $message = $update["message"]["text"];
         
         
-        echo "HAOOO";
+        echo "HAOOsO";
 
         if (strpos($message, "/start") === 0) {
         
